@@ -1,0 +1,46 @@
+
+API KEYS
+
+1)https://perfectsmm.com/api/v2
+22f181c337157d3427bf75799a1c3010
+
+
+https://indiansmartpanel.com/account/settings
+tacobal157@ovooovo.com(123123)
+---
+https://indiansmartpanel.com/api/v2
+$2y$10$Qz2bhmSVaFTcPTsXRPJky.Kv7ShEbXljJRw7HQK42PT2p8G/keU.m
+
+
+
+
+
+
+<?php
+ 
+    const API_URL = 'https://indiansmartpanel.com/api/v2'; // API URL/Replace reseller domain
+    const API_TOKEN = '$2y$10$Qz2bhmSVaFTcPTsXRPJky.Kv7ShEbXljJRw7HQK42PT2p8G/keU.m'; // Your API token
+
+    $post = array(
+            'key' => API_TOKEN,
+            'action' => 'status',
+            'order' => 46201419
+        );
+
+$ch = curl_init(API_URL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));
+
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)');
+        $result = curl_exec($ch);
+         
+        curl_close($ch);
+        
+        echo "<pre>";
+        print_r($result);
+        die;
+?>

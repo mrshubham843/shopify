@@ -1,0 +1,105 @@
+Dashboard
+  - Total orders
+  - Active orders
+  - complete orders
+  - in progress orders
+  - pending orders
+  - open tickets
+
+
+New orders
+  - Select Services
+  		- instagram likes
+  		- instagram comments
+  		- instagram followers
+
+  - select packages (show description as per select )
+  - link (user input)
+  - quantity (user input)
+  - average_time,min_qty,max_qty 
+
+
+Order History
+	- id
+	- date
+	- link
+	- start_count
+	- quantity
+	- services
+	- status
+	- remain
+
+
+RecurringCharge and UsageCharge
+
+- app install and start recurring with $29
+- for every service,pay as you use service ($2 for 10K)
+
+
+- update db record for updated_rate,updated_desc,serviceName,packageName
+- give button "order now" in service list table and when click it redirect to newOrder page
+- when newOrder submit button click then make payment with usageCharge API and update balance data
+- after new order submit, add send mail functionality (for self)
+- make code for send order to ssm panel
+- get order data and update in our status table
+- free followers for new user 
+
+
+
+
+google console :
+ YT Project : API KEY : AIzaSyBeii1qQ_eZ_7-8gA9Jy5Hr0X9HaZAdSp8
+
+ get video likes,comments,views : https://www.googleapis.com/youtube/v3/videos?id=KGVWpgApru8&key=AIzaSyBeii1qQ_eZ_7-8gA9Jy5Hr0X9HaZAdSp8&part=statistics
+ channel total views,total subscriber,total videos : https://www.googleapis.com/youtube/v3/channels?id=UCTTGmeGa_fI8-POThq0GqyA&key=AIzaSyBeii1qQ_eZ_7-8gA9Jy5Hr0X9HaZAdSp8&part=statistics
+ channel details,name,description,logo,country : https://www.googleapis.com/youtube/v3/channels?id=UCTTGmeGa_fI8-POThq0GqyA&key=AIzaSyBeii1qQ_eZ_7-8gA9Jy5Hr0X9HaZAdSp8&part=snippet
+
+
+
+
+https://cheapestsmmpanels.com/account
+API key :  54f995181fe2220f512776397d494e57
+shubham843/mrshubham843@gmail.com/13....45
+https://cheapestsmmpanels.com/api
+
+DB emojos store issue solved
+https://stackoverflow.com/questions/39463134/how-to-store-emoji-character-in-mysql-database
+2nd answer
+
+
+
+SMM stands for Social Media Marketing - social media marketing. The purpose of SMM is to attract customers from Facebook, Instagram and other social platforms. Another important task of SMM is to increase brand awareness and work on reputation. I think this is an actual profession in which you can earn quite a lot, especially now there are many auxiliary applications and tools for this
+
+
+==============
+
+1) Youtube Channel
+
+  > Link (input text)
+  > HEADING : - Custom Heading Title
+  > DESCRIPTION : - Custom Description
+                - Youtube Channel Description
+  > PROFILE 
+  > USERNAME
+  > SUBSCRIBER
+  > VIDEOS
+  > VIEWS
+
+2) Youtube Video
+  > Link (input text)
+  > HEADING : - Custom Heading Title
+  > DESCRIPTION : - Custom Description
+                - Youtube Channel Description
+  > PROFILE 
+  > USERNAME
+  > SUBSCRIBER
+  > VIDEOS
+  > VIEWS
+
+
+
+
+
+  1-9999
+ 10,000-99,999 = N,000 = NK
+ 1,00,000-9,99,999 = N,00,000 >NM 
